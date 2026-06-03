@@ -9,7 +9,8 @@ Welcome! This repository tracks my daily progress as I learn Python. It serves a
 
 Each folder contains a standalone project along with its own detailed documentation:
 
-*   **[🎯 Hangman Game](./Hangman-Game/)** - A command-line game that utilizes `while` loops, user inputs, string manipulation, and Python `sets` to automatically block duplicate user inputs.
+*   **[🎯 Hangman Game](./Hangman-Game/)** - A command-line game that utilizes `while` loops, user inputs, string manipulation, and Python `sets` to track user inputs.
+*   **[🗝️ Caesar Cipher](./Caesar-Cipher/)** - A text encryption and decryption tool utilizing positional function arguments, string manipulation, and mathematical modulo operations (`%`) to handle letter wrap-around smoothly.
 *   *🚀 Next project coming soon...*
 
 ## 🧠 Core Concepts Practiced
@@ -17,6 +18,7 @@ Each folder contains a standalone project along with its own detailed documentat
 As I build these projects, I am mastering:
 *   **Data Structures**: Working with `strings`, `lists`, and `sets`.
 *   **Control Flow**: Writing efficient `while` and `for` loops.
+*   **Functions & Scope**: Structuring reusable logic with positional and keyword arguments.
 *   **Problem Solving**: Debugging logic errors and managing application state.
 
 ---
