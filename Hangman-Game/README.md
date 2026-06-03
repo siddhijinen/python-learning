@@ -6,9 +6,9 @@ A classic, text-based Hangman game built using Python. The game randomly selects
 
 ## 🚀 Features
 
-* Random Word Selection:** Chooses a random word from a built-in list (`sunflower`, `ocean`, `pasta`, `bookstore`).
-* Visual Hangman Stages:** Displays classic ASCII art of the hangman that updates dynamically with every wrong guess.
-* Live Tracking:** Displays your remaining lives, correct guesses, and incorrect letters after each turn.
+* **Random Word Selection:** Chooses a random word from a built-in list (`sunflower`, `ocean`, `pasta`, `bookstore`).
+* **Visual Hangman Stages:** Displays classic ASCII art of the hangman that updates dynamically with every wrong guess.
+* **Live Tracking:** Displays your remaining lives, correct guesses, and incorrect letters after each turn.
 
 ---
 
