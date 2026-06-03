@@ -18,7 +18,7 @@ A classic, text-based Hangman game built using Python. The game randomly selects
 2. At each turn, you are prompted to guess a single letter.
 3. If the letter is in the word, it reveals its position(s).
 4. If the letter is incorrect, you lose a life, and a piece of the hangman is drawn.
-5. The game ends when you either reveal the whole word (**Win**) or run out of lives (Lose).
+5. The game ends when you either reveal the whole word (**Win**) or run out of lives (**Lose**).
 
 ---
 
