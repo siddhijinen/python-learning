@@ -20,26 +20,23 @@ The program collects names and secret bids from multiple users, clearing the scr
 
 ```bash
 python blind-auction.py
+```
 
 ## 🎮 How to Play
-Input your name when prompted by the terminal.
 
-Enter the numeric amount you are willing to bid.
+1. Input your name when prompted by the terminal.
+2. Enter the numeric amount you are willing to bid.
+3. Type yes if there are more participants to clear the screen, or no to close the bidding.
+4. View the final winner and their winning bid instantly!
 
-Type yes if there are more participants to clear the screen, or no to close the bidding.
+## 🧠 Things Learnt
 
-View the final winner and their winning bid instantly!
+* **Python Dictionaries:** Learned how to store key-value pairs (name: amount) to dynamically collect user data.
+* **While Loops & Flags:** Utilized boolean flags (auction_active) to cleanly control game states and loop iterations.
+* **Dictionary Iteration:** Learned how to loop through a dictionary to compare values and extract the maximum bid.
+* **Type Casting: Practiced** converting standard string inputs into integers (int()) to perform numerical comparisons.
 
-🧠 Things Learnt
-Python Dictionaries: Learned how to store key-value pairs (name: amount) to dynamically collect user data.
+## 🛠️ Built With
 
-While Loops & Flags: Utilized boolean flags (auction_active) to cleanly control game states and loop iterations.
-
-Dictionary Iteration: Learned how to loop through a dictionary to compare values and extract the maximum bid.
-
-Type Casting: Practiced converting standard string inputs into integers (int()) to perform numerical comparisons.
-
-🛠️ Built With
-Python 3 - Pure standard library implementation.
-
-ASCII Art - Embedded cleanly for styled terminal visual output.
+* **Python 3** - Pure standard library implementation.
+* **ASCII Art** - Embedded cleanly for styled terminal visual output.
