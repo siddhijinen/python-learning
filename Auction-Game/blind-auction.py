@@ -37,4 +37,4 @@ for person in list_of_bidders:
         highest_bid_value = list_of_bidders[person]
         bid_winner = person
 
-print(f"The winner is {bid_winner} with a bid of ${highest_bid_value}")
+print(f"The winner is {bid_winner} with a bid of ${highest_bid_value}.")
