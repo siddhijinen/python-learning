@@ -1,25 +1,35 @@
 # python_learning
+
 A collection of Python scripts and mini-projects built while learning core programming concepts.
 
-# 🐍 My Python Learning Journey
+---
+
+## 🐍 My Python Learning Journey
 
 Welcome! This repository tracks my daily progress as I learn Python. It serves as a central hub for all my coding exercises, mini-projects, and experiments with core language features.
+
+---
 
 ## 📁 Repository Structure
 
 Each folder contains a standalone project along with its own detailed documentation:
 
-*   **[🎯 Hangman Game](./Hangman-Game/)** - A command-line game that utilizes `while` loops, user inputs, string manipulation, and Python `sets` to track user inputs.
-*   **[🗝️ Caesar Cipher](./Cipher-Game/)** - A text encryption and decryption tool utilizing positional function arguments, string manipulation, and mathematical modulo operations (`%`) to handle letter wrap-around smoothly.
-*   *🚀 Next project coming soon...*
+* [🎯 Hangman Game](./Hangman-Game/) - A command-line game that utilizes `while` loops, user inputs, string manipulation, and Python sets to track user inputs.
+* [🗝️ Caesar Cipher](./Cipher-Game/) - A text encryption and decryption tool utilizing positional function arguments, string manipulation, and mathematical modulo operations (`%`) to handle letter wrap-around smoothly.
+* [🔨 Blind Auction](./Auction-Game/) - A console-based secret bidding program that handles user input via dynamic dictionaries and loops to securely determine a high-bid winner.
+* *🚀 Next project coming soon...*
+
+---
 
 ## 🧠 Core Concepts Practiced
 
 As I build these projects, I am mastering:
-*   **Data Structures**: Working with `strings`, `lists`, and `sets`.
-*   **Control Flow**: Writing efficient `while` and `for` loops.
-*   **Functions & Scope**: Structuring reusable logic with positional and keyword arguments.
-*   **Problem Solving**: Debugging logic errors and managing application state.
+
+* **Data Structures:** Working with strings, lists, sets, and key-value **dictionaries**.
+* **Control Flow:** Writing efficient `while` loops, tracking game states with booleans, and parsing dictionary keys.
+* **Functions & Scope:** Structuring reusable logic with positional and keyword arguments.
+* **Problem Solving:** Managing application state, preventing screen-peeking via console spacing, and debugging logic errors.
 
 ---
+
 *Feel free to explore the folders above to see the code and implementation details!*
