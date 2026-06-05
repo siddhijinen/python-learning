@@ -17,6 +17,7 @@ Each folder contains a standalone project along with its own detailed documentat
 * [🎯 Hangman Game](./Hangman-Game/) - A command-line game that utilizes `while` loops, user inputs, string manipulation, and Python sets to track user inputs.
 * [🗝️ Caesar Cipher](./Cipher-Game/) - A text encryption and decryption tool utilizing positional function arguments, string manipulation, and mathematical modulo operations (`%`) to handle letter wrap-around smoothly.
 * [🔨 Blind Auction](./Auction-Game/) - A console-based secret bidding program that handles user input via dynamic dictionaries and loops to securely determine a high-bid winner.
+* [🧮 Calculator](./Calculator-Program/) - A command-line calculator showcasing functions with outputs (return values), recursive loops, mathematical operations, and floating-point logic to handle continuous math calculations seamlessly.
 * *🚀 Next project coming soon...*
 
 ---
@@ -30,6 +31,4 @@ As I build these projects, I am mastering:
 * **Functions & Scope:** Structuring reusable logic with positional and keyword arguments.
 * **Problem Solving:** Managing application state, preventing screen-peeking via console spacing, and debugging logic errors.
 
----
 
-*Feel free to explore the folders above to see the code and implementation details!*
