@@ -18,6 +18,7 @@ Each folder contains a standalone project along with its own detailed documentat
 * [🗝️ Caesar Cipher](./Cipher-Game/) - A text encryption and decryption tool utilizing positional function arguments, string manipulation, and mathematical modulo operations (`%`) to handle letter wrap-around smoothly.
 * [🔨 Blind Auction](./Auction-Game/) - A console-based secret bidding program that handles user input via dynamic dictionaries and loops to securely determine a high-bid winner.
 * [🧮 Calculator](./Calculator-Program/) - A command-line calculator showcasing functions with outputs (return values), recursive loops, mathematical operations, and floating-point logic to handle continuous math calculations seamlessly.
+* [🃏 Blackjack Game](./Blackjack-Game/) - A command-line card game featuring automated dealer logic, deep conditional win/loss checks, and dynamic list mutations to handle flexible Ace card values.
 * *🚀 Next project coming soon...*
 
 ---
