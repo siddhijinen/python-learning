@@ -2,13 +2,9 @@
 
 A collection of Python scripts and mini-projects built while learning core programming concepts.
 
----
-
 ## 🐍 My Python Learning Journey
 
 Welcome! This repository tracks my daily progress as I learn Python. It serves as a central hub for all my coding exercises, mini-projects, and experiments with core language features.
-
----
 
 ## 📁 Repository Structure
 
@@ -20,17 +16,14 @@ Each folder contains a standalone project along with its own detailed documentat
 - [🧮 Calculator](./Calculator-Project/) - A command-line calculator showcasing functions with outputs (return values), recursive loops, mathematical operations, and floating-point logic to handle continuous math calculations seamlessly.
 - [🃏 Blackjack Game](./Blackjack-Game/) - A command-line card game featuring automated dealer logic, deep conditional win/loss checks, and dynamic list mutations to handle flexible Ace card values.
 - [🎯 Number Guessing Game](./Number-Guessing-Game/) - A command-line game featuring multiple difficulty levels, live attempt tracking, and hot/cold feedback to practice scope and loops.
+- [↕️ Higher Lower Game](./Higher-Lower-Game/) - A command-line comparison game utilizing external datasets, dynamic list tracking to prevent duplicate matchups, and real-time score tracking.
 - *🚀 Next project coming soon...*
-
----
 
 ## 🧠 Core Concepts Practiced
 
 As I build these projects, I am mastering:
 
-* **Data Structures:** Working with strings, lists, sets, and key-value **dictionaries**.
-* **Control Flow:** Writing efficient `while` loops, tracking game states with booleans, and parsing dictionary keys.
-* **Functions & Scope:** Structuring reusable logic with positional and keyword arguments.
-* **Problem Solving:** Managing application state, preventing screen-peeking via console spacing, and debugging logic errors.
-
-
+- *Data Structures:* Working with strings, lists, sets, and key-value *dictionaries*.
+- *Control Flow:* Writing efficient while loops, tracking game states with booleans, and parsing dictionary keys.
+- *Functions & Scope:* Structuring reusable logic with positional and keyword arguments.
+- *Problem Solving:* Managing application state, preventing screen-peeking via console spacing, and debugging logic errors.
