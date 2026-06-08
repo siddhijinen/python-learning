@@ -32,9 +32,6 @@ while new_game:
         else:
             correct_answer = "B"
 
-        print(correct_answer)
-        print(visited_people)
-
         answer = input("Who has more followers? Type 'A' or 'B': ").upper()
         if answer == correct_answer or followersA == followersB:
             score += 1
