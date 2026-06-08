@@ -23,7 +23,13 @@ Each folder contains a standalone project along with its own detailed documentat
 
 As I build these projects, I am mastering:
 
-- *Data Structures:* Working with strings, lists, sets, and key-value *dictionaries*.
-- *Control Flow:* Writing efficient while loops, tracking game states with booleans, and parsing dictionary keys.
-- *Functions & Scope:* Structuring reusable logic with positional and keyword arguments.
+- *Data Structures:* Working with strings, lists, sets, and key-value *dictionaries*, and parsing dictionary key.
+- *Control Flow:* Writing efficient while loops, tracking game states with booleanss.
+- *Functions & Scope:* Structuring reusable logic with return values, positional arguments, and keyword arguments.
 - *Problem Solving:* Managing application state, preventing screen-peeking via console spacing, and debugging logic errors.
+
+## 🛠️ Tech Stack & Environment
+
+- **Language:** Python 3.10+
+- **Paradigm:** Functional Programming & Procedural Logic
+- **Environment:** CLI / Terminal-based execution
