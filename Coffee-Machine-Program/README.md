@@ -20,7 +20,7 @@ The program manages a real-time inventory of physical resources (water, milk, co
 4. Run the script using the following command:
 
 ```bash
-python main.py
+python coffee-machine.py
 
 ```
 
