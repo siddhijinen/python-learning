@@ -4,14 +4,14 @@ A Python application that uses the `turtle` graphics module to generate a Damien
 
 The program draws a 10x10 grid of colored filled dots on a dark canvas, picking RGB color tuples extracted from an image artwork palette.
 
-## ✨ Features
+## Features
 
 * **Image Color Extraction:** Utilizes commented setup code using `colorgram.py` to extract RGB color palettes from local image files.
 * **Turtle Graphics Grid:** Draws a precise 10x10 array of filled circular dots with uniform grid spacing using nested loops.
 * **Dynamic Color Selection:** Randomly samples RGB tuples on the fly to render unique color combinations across the canvas.
 * **Canvas Styling:** Customizes background presentation to dark mode (`"black"`) and maximizes render speed (`"fastest"`).
 
-## 📋 Prerequisites & Package Installation
+## Prerequisites & Package Installation
 
 Make sure you have **Python 3** installed. 
 
