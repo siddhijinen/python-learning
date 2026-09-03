@@ -6,7 +6,7 @@ A collection of Python scripts and mini-projects built while learning core progr
 
 Welcome! This repository tracks my daily progress as I learn Python. It serves as a central hub for all my coding exercises, mini-projects, and experiments with core language features.
 
-## 📁 Repository Structure
+## Repository Structure
 
 Each folder contains a standalone project along with its own detailed documentation:
 
@@ -20,7 +20,7 @@ Each folder contains a standalone project along with its own detailed documentat
 - [☕ Coffee Machine Program](./Coffee-Machine-Program/) - A command-line simulation of a beverage vending machine using nested dictionaries to track ingredient inventories and calculate complex coin transactions.
 - *🚀 Next project coming soon...*
 
-## 🧠 Core Concepts Practiced
+## Core Concepts Practiced
 
 As I build these projects, I am mastering:
 
@@ -29,7 +29,7 @@ As I build these projects, I am mastering:
 - *Functions & Scope:* Structuring reusable logic with return values, positional arguments, and keyword arguments.
 - *Problem Solving:* Managing application state, preventing screen-peeking via console spacing, and debugging logic errors.
 
-## 🛠️ Tech Stack & Environment
+## Tech Stack & Environment
 
 - *Language:* Python 3.10+
 - *Paradigm:* Functional Programming & Procedural Logic
