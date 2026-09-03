@@ -4,7 +4,7 @@ A command-line Python application that performs fundamental arithmetic operation
 
 The program utilizes a dynamic dictionary-based function mapping system to process calculations continuously, allowing you to chain mathematical operations together using previous results.
 
-## ✨ Features
+## Features
 
 * **Core Arithmetic:** Supports standard addition (`+`), subtraction (`-`), multiplication (`*`), and division (`/`).
 * **Chained Calculations:** Choose to carry forward your previous result into a brand new math operation seamlessly.
@@ -12,7 +12,7 @@ The program utilizes a dynamic dictionary-based function mapping system to proce
 * **Dynamic Function Mapping:** Uses a clean dictionary structure to route user inputs directly to mathematical functions.
 * **Zero Dependencies:** Fully self-contained inside a single file with an embedded retro-style ASCII calculator logo—no external package installations required!
 
-## 🚀 How to Run
+## How to Run
 
 1. Make sure you have **Python 3** installed on your computer.
 2. Clone or download this repository.
@@ -23,7 +23,7 @@ The program utilizes a dynamic dictionary-based function mapping system to proce
 python calculator.py
 ```
 
-## 🎮 How to Play
+## How to Play
 
 1. Input your first numeric value (decimals are supported!).
 2. Choose an operation from the menu (+, -, *, /).
@@ -33,7 +33,7 @@ python calculator.py
     *Type n to clear the memory and start fresh with a new number.
     *Type x to cleanly exit the application.
 
-## 🛠️ Built With
+## Built With
 
 * **Python 3** - Pure standard library implementation.
 * **Dictionaries & First-Class Functions** - Leveraged to map operator symbols straight to functional math blocks.
