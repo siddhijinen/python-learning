@@ -4,7 +4,7 @@ A command-line Python application that encrypts and decrypts text using the clas
 
 The program shifts the letters of your message by a user-defined numeric value, while preserving spaces, numbers, and special symbols entirely intact.
 
-## ✨ Features
+## Features
 
 *   **Encryption (Encoding):** Obfuscate messages securely by shifting letters forward.
 *   **Decryption (Decoding):** Reverse the shift easily to read encrypted messages.
@@ -12,7 +12,7 @@ The program shifts the letters of your message by a user-defined numeric value, 
 *   **Infinite Loop Execution:** Run multiple encryption/decryption cycles without restarting the script.
 *   **Zero Dependencies:** Fully self-contained inside a single file with embedded ASCII art—no external package installations required!
 
-## 🚀 How to Run
+## How to Run
 
 1. Make sure you have **Python 3** installed on your computer.
 2. Clone or download this repository.
@@ -23,7 +23,7 @@ The program shifts the letters of your message by a user-defined numeric value, 
 python caesar-cipher.py
 ```
 
-## 🎮 How to Play
+## How to Play
 
 1. Choose a mode by typing either `encode` or `decode`.
 2. Input the secret message you want to process.
@@ -31,7 +31,7 @@ python caesar-cipher.py
 4. View your result instantly! 
 5. Type `yes` when prompted if you wish to run another message, or enter any other key to cleanly exit the application.
 
-## 🛠️ Built With
+## Built With
 
 *   **Python 3** - Pure standard library implementation.
 *   **ASCII Art** - Embedded cleanly for styled terminal visual output.
