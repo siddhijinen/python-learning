@@ -18,7 +18,7 @@ tim.speed("fastest")
 
 turn_angle = 4
 
-for _ in range(360 // turn_angle): #52
+for _ in range(360 // turn_angle):
     tim.color(random_color())
     tim.circle(100)
     tim.right(turn_angle)
