@@ -18,19 +18,22 @@ Each folder contains a standalone project along with its own detailed documentat
 - [🎯 Number Guessing Game](./Number-Guessing-Game/) - A command-line game featuring multiple difficulty levels, live attempt tracking, and hot/cold feedback to practice scope and loops.
 - [↕️ Higher Lower Game](./Higher-Lower-Game/) - A command-line comparison game utilizing external datasets, dynamic list tracking to prevent duplicate matchups, and real-time score tracking.
 - [☕ Coffee Machine Program](./Coffee-Machine-Program/) - A command-line simulation of a beverage vending machine using nested dictionaries to track ingredient inventories and calculate complex coin transactions.
+- [🎨 Hirst Painting Generator](./Hirst-Painting-Generator/) - A graphical application utilizing the Python `turtle` module and `colorgram.py` to extract RGB color palettes from image artwork and generate a 10x10 spot grid.
+- [🌀 Spirograph Generator](./Spirograph-Generator/) - A graphical generator using `turtle` graphics and geometric division angles to draw overlapping, randomized 24-bit RGB circular patterns.
 - *🚀 Next project coming soon...*
 
 ## Core Concepts Practiced
 
 As I build these projects, I am mastering:
 
-- *Data Structures:* Working with strings, lists, sets, and key-value *dictionaries*, and parsing dictionary keys.
-- *Control Flow:* Writing efficient while loops, tracking game states with booleans.
+- *Data Structures:* Working with strings, lists, sets, RGB tuples `(r, g, b)`, and key-value *dictionaries*, and parsing dictionary keys.
+- *Control Flow:* Writing efficient while loops, tracking game states with booleans, and calculating angular loop steps (`360 // angle`).
 - *Functions & Scope:* Structuring reusable logic with return values, positional arguments, and keyword arguments.
+- *GUI & Graphics:* Controlling coordinate positioning (`setx()`, `sety()`), turtle screen states, custom background canvas styling, and third-party image extraction (`colorgram`).
 - *Problem Solving:* Managing application state, preventing screen-peeking via console spacing, and debugging logic errors.
 
 ## Tech Stack & Environment
 
 - *Language:* Python 3.10+
 - *Paradigm:* Functional Programming & Procedural Logic
-- *Environment:* CLI / Terminal-based execution
+- *Environment:* CLI / Terminal-based execution & Turtle GUI
