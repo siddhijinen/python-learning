@@ -20,6 +20,7 @@ Each folder contains a standalone project along with its own detailed documentat
 - [☕ Coffee Machine Program](./Coffee-Machine-Program/) - A command-line simulation of a beverage vending machine using nested dictionaries to track ingredient inventories and calculate complex coin transactions.
 - [🎨 Hirst Painting Generator](./Hirst-Painting-Generator/) - A graphical application utilizing the Python `turtle` module and `colorgram.py` to extract RGB color palettes from image artwork and generate a 10x10 spot grid.
 - [🌀 Spirograph Generator](./Spirograph-Generator/) - A graphical generator using `turtle` graphics and geometric division angles to draw overlapping, randomized 24-bit RGB circular patterns.
+- [🐢 Turtle Race Game](./Turtle-Racing/) - An interactive graphical betting game utilizing OOP instances, GUI pop-up inputs, and randomized step logic to race multi-colored turtles across a finish line.
 - *🚀 Next project coming soon...*
 
 ## Core Concepts Practiced
