@@ -2,6 +2,8 @@
 
 A graphical multi-colored turtle race built with Python's `turtle` module (*100 Days of Code*). Place your bet, watch the turtles race across a custom finish line, and see if your color wins!
 
+https://github.com/user-attachments/assets/1abe5138-7841-49ae-adf3-480cb7dac676
+
 ## Features
 
 * **Interactive Betting:** GUI pop-up (`textinput`) to place your color bet.
