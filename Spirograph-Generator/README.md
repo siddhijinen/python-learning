@@ -4,7 +4,7 @@ A Python application that uses the `turtle` graphics module to generate a colorf
 
 The program repeatedly draws circles of fixed radius while rotating a small angle after each iteration, picking fully randomized RGB colors to create an overlapping geometric artwork on a dark canvas.
 
-<img width="363" height="369" alt="Screenshot 2026-09-04 at 15 02 29" src="https://github.com/user-attachments/assets/1f1cdd13-e3db-4c37-9d33-c6ed75d8ad3e" />
+<img width="544.5" height="553.5" alt="Screenshot 2026-09-04 at 15 02 29" src="https://github.com/user-attachments/assets/1f1cdd13-e3db-4c37-9d33-c6ed75d8ad3e" />
 
 ## Features
 
