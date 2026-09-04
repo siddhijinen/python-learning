@@ -20,6 +20,7 @@ A graphical multi-colored turtle race built with Python's `turtle` module (*100 
 
 ```bash
 python turtle_racing.py
+```
 
 ## How to Play
 
