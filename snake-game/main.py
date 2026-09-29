@@ -12,10 +12,9 @@ screen.tracer(0)
 
 snake = Snake()
 scoreboard = Scoreboard()
-screen.listen()
-
 food = Food()
 
+screen.listen()
 screen.onkey(snake.left, "Left")
 screen.onkey(snake.right, "Right")
 screen.onkey(snake.up, "Up")
