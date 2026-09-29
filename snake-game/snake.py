@@ -16,12 +16,27 @@ class Snake():
         self.head.shapesize(stretch_wid=1, stretch_len=1.5)
 
     def create_snake(self):
+        """Creates Snake to Start Game"""
         for position in STARTING_POSITIONS:
             new_segment = Turtle("square")
             new_segment.color("green")
             new_segment.penup()
             new_segment.goto(position)
             self.segments.append(new_segment)
+
+    def move(self):
+        """Moves Snake by defined MOVE_DISTANCE"""
+        for seg_num in range(len(self.segments)-1,0,-1):
+            self.segments[seg_num].goto(self.segments[seg_num-1].pos())
+        self.head.forward(MOVE_DISTANCE)
+
+    def grow(self):
+        """Snake grows in size once eaten food"""
+        new_segment = Turtle("square")
+        new_segment.color("green")
+        new_segment.penup()
+        new_segment.goto(self.segments[len(self.segments)-1].pos())
+        self.segments.append(new_segment)
 
     def left(self):
         if self.head.heading() != RIGHT:
@@ -36,16 +51,4 @@ class Snake():
         if self.head.heading() != UP:
             self.head.setheading(DOWN)
 
-    def move(self):
-        for seg_num in range(len(self.segments)-1,0,-1):
-            self.segments[seg_num].goto(self.segments[seg_num-1].pos())
-        self.head.forward(MOVE_DISTANCE)
-        # head.onkey(turn_left, 'left')
-        # head.onkey(turn_right, 'right')
-
-    def grow(self):
-        new_segment = Turtle("square")
-        new_segment.color("green")
-        new_segment.penup()
-        new_segment.goto(self.segments[len(self.segments)-1].pos())
-        self.segments.append(new_segment)
+    
