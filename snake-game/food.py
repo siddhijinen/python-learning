@@ -3,6 +3,7 @@ from turtle import Turtle
 
 class Food(Turtle):
     def __init__(self):
+        """Initialises Food for the Snake."""
         super().__init__()
         self.penup()
         self.shape("circle")
@@ -11,6 +12,7 @@ class Food(Turtle):
         self.speed("fastest")
 
     def refresh(self):
+        """Places Food at a new location."""
         random_x = random.randint(-370, 370)
         random_y = random.randint(-270, 270)
         self.goto(random_x, random_y)
