@@ -1,5 +1,7 @@
 # Ping Pong Game 🏓
 
+https://github.com/user-attachments/assets/ac3025ca-7533-4e1e-9b7c-9b0d47597029
+
 A classic arcade Pong game built in Python using the `turtle` graphics module. The application features an interactive player paddle versus an automated computer opponent, complete with collision physics and score tracking across separate modules (`main.py`, `paddle.py`, `ball.py`, `scoreboard.py`).
 
 The game runs on an 800x600 dark canvas where players bounce a ball back and forth to score points when the opponent misses.
