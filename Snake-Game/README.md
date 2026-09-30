@@ -1,5 +1,7 @@
 # Snake Game 🐍
 
+https://github.com/user-attachments/assets/b1ec7c64-7920-4a3f-a4c8-fe8d498f0350
+
 A classic Snake game built in Python using the `turtle` graphics module. The application uses object-oriented programming to structure game elements across separate modules (`main.py`, `snake.py`, `food.py`, `scoreboard.py`).
 
 The player controls a snake on an 800x600 dark canvas, eating food to grow and gain points while avoiding collisions with the boundary walls and the snake's own tail.
