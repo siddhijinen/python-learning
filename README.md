@@ -21,6 +21,7 @@ Each folder contains a standalone project along with its own detailed documentat
 - [🎨 Hirst Painting Generator](./Hirst-Painting-Generator/) - A graphical application utilizing the Python `turtle` module and `colorgram.py` to extract RGB color palettes from image artwork and generate a 10x10 spot grid.
 - [🌀 Spirograph Generator](./Spirograph-Generator/) - A graphical generator using `turtle` graphics and geometric division angles to draw overlapping, randomized 24-bit RGB circular patterns.
 - [🐢 Turtle Race Game](./Turtle-Racing/) - An interactive graphical betting game utilizing OOP instances, GUI pop-up inputs, and randomized step logic to race multi-colored turtles across a finish line.
+- [🐍 Snake Game](./Snake-Game/) - A classic arcade game built using modular OOP architecture across multiple custom classes (`Snake`, `Food`, `Scoreboard`) to handle movement, collision detection, and live score tracking.
 - *🚀 Next project coming soon...*
 
 ## Core Concepts Practiced
@@ -36,5 +37,5 @@ As I build these projects, I am mastering:
 ## Tech Stack & Environment
 
 - *Language:* Python 3.10+
-- *Paradigm:* Functional Programming & Procedural Logic
+- *Paradigm:* Functional Programming, Procedural Logic, & Object-Oriented Programming (OOP)
 - *Environment:* CLI / Terminal-based execution & Turtle GUI
