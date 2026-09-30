@@ -1,4 +1,4 @@
-# Ping Pong Game
+# Ping Pong Game 🏓
 
 A classic arcade Pong game built in Python using the `turtle` graphics module. The application features an interactive player paddle versus an automated computer opponent, complete with collision physics and score tracking across separate modules (`main.py`, `paddle.py`, `ball.py`, `scoreboard.py`).
 
