@@ -34,18 +34,18 @@ while game_is_on:
     if ball.ycor() > 280 or ball.ycor() < -280:
         ball.bounce_y()
 
-    # Detect collision with right paddle (computer) or left paddle (paddle)
+    # Detect collision with right paddle (computer) or left paddle (human)
     if (ball.distance(computer) < 50 and ball.xcor() > 330) or (ball.distance(paddle) < 50 and ball.xcor() < -330):
         ball.bounce_x()
 
-    # Right paddle missed (Left player scores)
+    # Right paddle missed (Left Player scores)
     if ball.xcor() > 380:
         ball.refresh()
         ball.bounce_x()
         scoreboard.h_score += 1 # Increments left score
         scoreboard.draw_score()
 
-    # Left paddle missed (Right player scores)
+    # Left paddle missed (Right Player scores)
     if ball.xcor() < -380:
         ball.refresh()
         ball.bounce_x()
