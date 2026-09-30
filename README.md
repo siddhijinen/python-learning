@@ -22,6 +22,7 @@ Each folder contains a standalone project along with its own detailed documentat
 - [🌀 Spirograph Generator](./Spirograph-Generator/) - A graphical generator using `turtle` graphics and geometric division angles to draw overlapping, randomized 24-bit RGB circular patterns.
 - [🐢 Turtle Race Game](./Turtle-Racing/) - An interactive graphical betting game utilizing OOP instances, GUI pop-up inputs, and randomized step logic to race multi-colored turtles across a finish line.
 - [🐍 Snake Game](./Snake-Game/) - A classic arcade game built using modular OOP architecture across multiple custom classes (`Snake`, `Food`, `Scoreboard`) to handle movement, collision detection, and live score tracking.
+- [🏓 Ping Pong Game](./Ping-Pong-Game/) - A 2D arcade game built with Python `turtle` featuring real-time collision dynamics, smooth paddle controls, custom score tracking, and automated computer opponent AI.
 - *🚀 Next project coming soon...*
 
 ## Core Concepts Practiced
