@@ -1,4 +1,4 @@
-# Turtle Racinggg 🐢
+# Turtle Racing 🐢
 
 A graphical multi-colored turtle race built with Python's `turtle` module (*100 Days of Code*). Place your bet, watch the turtles race across a custom finish line, and see if your color wins!
 
