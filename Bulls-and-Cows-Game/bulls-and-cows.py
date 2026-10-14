@@ -1,8 +1,8 @@
 import random
 
-def generate_number():
+def generate_number(samples):
     """generates a random number with no duplicates"""
-    return random.sample(range(10),4)
+    return random.sample(range(10), samples)
 
 def check_answer(guess, ans):
     """checks the guess against the pregenerated answer"""
@@ -13,40 +13,51 @@ def check_answer(guess, ans):
             bulls += 1
         elif guess[i] in ans:
             cows += 1
-    if bulls == 4:
+    if bulls == level[0]:
         print("You Win!!")
     else: print(f"{bulls} A (Bulls) {cows} B (Cows)")
-    
+
     return bulls
 
-def get_guess():
+def get_guess(level):
     """gets guess from user and ensure the user guesses 4 unique digits"""
     while True:
-        guess = input("Please input 4 digits:  ")
+        guess = input(f"Please input {level} digits:  ")
         
-        if len(guess) != 4 or not guess.isdigit():
-            print("Guess must be exactly 4 digits! Try again.") 
+        if len(guess) != level or not guess.isdigit():
+            print(f"Guess must be exactly {level} digits! Try again.") 
             continue
 
         guess_list = [int(digit) for digit in guess]
 
-        if len(set(guess_list)) != 4:
+        if len(set(guess_list)) != level:
             print("No duplicate digits allowed! Try again.")
             continue
             
         return guess_list 
-
+    
+def choose_difficulty():
+    while True:
+        levels = {"easy": (3,12), "medium": (4, 10), "hard": (5, 8)}
+        level_chosen = input("Choose a level (easy/medium/hard): ").lower()
+        if level_chosen not in levels:
+            continue
+        return levels[level_chosen]
 
 game_on = True
-ans_list = generate_number()
-print(ans_list)
+level = choose_difficulty()
+ans_list = generate_number(level[0])
+print(f"You have {level[1]} guesses!")
 # ans_list = [int(digit) for digit in str(ans)]
 attempts = 0
 while game_on:
-    guess_list = get_guess()
+    guess_list = get_guess(level[0])
     correct = check_answer(guess_list, ans_list)
     attempts += 1
-    if correct == 4:
+    if correct == level[0]:
         game_on = False
-
+    elif attempts == level[1]:
+        print("You lost!")
+        print(f"The correct target was {int("".join([str(num) for num in ans_list]))}")
+        game_on = False
 print(f"Attempts: {attempts}")
