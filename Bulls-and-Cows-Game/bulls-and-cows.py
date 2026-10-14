@@ -13,7 +13,7 @@ def check_answer(guess, ans):
             bulls += 1
         elif guess[i] in ans:
             cows += 1
-    if bulls == level[0]:
+    if bulls == len_of_ans:
         print("You Win!!")
     else: print(f"{bulls} A (Bulls) {cows} B (Cows)")
 
@@ -46,17 +46,18 @@ def choose_difficulty():
 
 game_on = True
 level = choose_difficulty()
-ans_list = generate_number(level[0])
-print(f"You have {level[1]} guesses!")
-# ans_list = [int(digit) for digit in str(ans)]
+level[0] = len_of_ans
+level[1] = no_of_attempts
+ans_list = generate_number(len_of_ans)
+print(f"You have {no_of_attempts} guesses!")
 attempts = 0
 while game_on:
-    guess_list = get_guess(level[0])
+    guess_list = get_guess(len_of_ans)
     correct = check_answer(guess_list, ans_list)
     attempts += 1
-    if correct == level[0]:
+    if correct == len_of_ans:
         game_on = False
-    elif attempts == level[1]:
+    elif attempts == no_of_attempts:
         print("You lost!")
         print(f"The correct target was {int("".join([str(num) for num in ans_list]))}")
         game_on = False
